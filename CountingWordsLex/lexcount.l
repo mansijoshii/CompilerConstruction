@@ -15,8 +15,9 @@ int yywrap (void) {}
   
 int main() 
 {    
+    // Can provide the input through file using 
+    // yyin = fopen("count.txt", "r");
     // The function that starts the analysis 
-    //yyin = fopen("count.txt", "r");
     yylex(); 
     return 0; 
 }
